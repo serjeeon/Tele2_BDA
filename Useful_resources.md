@@ -27,6 +27,13 @@ Matplotlib cheatsheet: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/
 
 GGplot cheatsheet: https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
 
+## 3 Производительность
+
+### Dask
+
+https://media.readthedocs.org/pdf/dask/latest/dask.pdf
+
+https://medium.com/capital-one-developers/dask-numba-for-efficient-in-memory-model-scoring-dfc9b68ba6ce
 
 ## Other
 
