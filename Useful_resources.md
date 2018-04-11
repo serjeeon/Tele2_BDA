@@ -16,6 +16,17 @@ Xgb tuning: https://github.com/dmlc/xgboost/blob/master/doc/how_to/param_tuning.
 Основопологающий учебник: https://github.com/janishar/mit-deep-learning-book-pdf
 
 
+## 2 Анализ данных
+
+### Графики
+Plotly cheatsheet: https://images.plot.ly/plotly-documentation/images/python_cheat_sheet.pdf
+
+Seaborn cheatsheet: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
+
+Matplotlib cheatsheet: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf
+
+GGplot cheatsheet: https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
+
 
 ## Other
 
