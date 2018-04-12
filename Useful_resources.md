@@ -35,7 +35,8 @@ https://media.readthedocs.org/pdf/dask/latest/dask.pdf
 
 https://medium.com/capital-one-developers/dask-numba-for-efficient-in-memory-model-scoring-dfc9b68ba6ce
 
-## Other
+## 4 Другое
 
 Markdown Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code
 
+Python debugger: http://fastml.com/how-to-use-the-python-debugger/
