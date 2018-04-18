@@ -18,7 +18,7 @@ Xgb tuning: https://github.com/dmlc/xgboost/blob/master/doc/how_to/param_tuning.
 
 ## 2 Анализ данных
 
-### Графики
+### 2.1 Графики
 Plotly cheatsheet: https://images.plot.ly/plotly-documentation/images/python_cheat_sheet.pdf
 
 Seaborn cheatsheet: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
@@ -27,16 +27,28 @@ Matplotlib cheatsheet: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/
 
 GGplot cheatsheet: https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
 
+Несколько хороших примеров по визуализации, в т.ч. анимации: https://github.com/aaronpenne/data_visualization
+
+### 2.2 Pandas
+
+Оптимизация в памяти: https://www.dataquest.io/blog/pandas-big-data/
+
 ## 3 Производительность
 
 ### Dask
 
-https://media.readthedocs.org/pdf/dask/latest/dask.pdf
+Документация: https://media.readthedocs.org/pdf/dask/latest/dask.pdf
 
-https://medium.com/capital-one-developers/dask-numba-for-efficient-in-memory-model-scoring-dfc9b68ba6ce
+Относительно подробный официальный туториал: https://github.com/dask/dask-tutorial
+
+Рандомный туториал вместе с намба: https://medium.com/capital-one-developers/dask-numba-for-efficient-in-memory-model-scoring-dfc9b68ba6ce
 
 ## 4 Другое
 
 Markdown Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code
 
 Python debugger: http://fastml.com/how-to-use-the-python-debugger/
+
+Why Python is slow: https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
+
+Сессии датабрикс: https://databricks.com/sparkaisummit/sessions
