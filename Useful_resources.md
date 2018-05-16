@@ -72,7 +72,17 @@ PySpark intro: https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutoria
 
 Матричный матан: http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html
 
+Теория информации: http://www.cl.cam.ac.uk/teaching/0809/InfoTheory/InfoTheoryLectures.pdf
 
+Thinkstats (интро в статистику, объяснения в виде питон кода): http://greenteapress.com/thinkstats/thinkstats.pdf
+
+Линейная алегбра (книжка, сам не пробовал, говорят что норм): http://www.math.hcmus.edu.vn/~bxthang/Linear%20algebra%20and%20its%20applications.pdf
+
+Линейная алегбра (и остальные курсы, там много полезного на новичковом уровне с отличными объяснениями): https://www.khanacademy.org/math/linear-algebra/
+
+Лучший ютуб канал с видео по математике: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
+
+Линейная алгебра (кратко): https://web.stanford.edu/class/cs231a/section/section1.pdf
 
 ## 99 Другое
 
