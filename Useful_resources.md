@@ -17,6 +17,8 @@ Xgb tuning: https://github.com/dmlc/xgboost/blob/master/doc/how_to/param_tuning.
 
 Интро в простые алгоритмы: https://medium.freecodecamp.org/the-hitchhikers-guide-to-machine-learning-algorithms-in-python-bfad66adb378
 
+SVM для лохов: http://web.mit.edu/6.034/wwwbob/svm-notes-long-08.pdf
+
 ### 1.4 Deep Learning
 
 Основопологающий учебник: https://github.com/janishar/mit-deep-learning-book-pdf
@@ -63,6 +65,14 @@ Why Python is slow: https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow
 Официальная документация: https://spark.apache.org/docs/1.6.2/programming-guide.html
 
 PySpark intro: https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f
+
+Есть инфа, что H2o на спарке - самое нормальное, что можно здесь использовать для машинного обучения, но на данный момент никто не проверял
+
+## 6 Теория / Математика
+
+Матричный матан: http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html
+
+
 
 ## 99 Другое
 
