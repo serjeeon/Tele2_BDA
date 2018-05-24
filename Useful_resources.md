@@ -84,6 +84,12 @@ Thinkstats (интро в статистику, объяснения в виде
 
 Линейная алгебра (кратко): https://web.stanford.edu/class/cs231a/section/section1.pdf
 
+ML (ESLII): https://web.stanford.edu/~hastie/Papers/ESLII.pdf
+
+Stats 36700 (CMU): http://www.stat.cmu.edu/~siva/700/main.html
+
+Stats 36705 (CMU): http://www.stat.cmu.edu/~larry/=stat705/
+
 ## 99 Другое
 
 Markdown Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code
