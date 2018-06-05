@@ -95,3 +95,5 @@ Stats 36705 (CMU): http://www.stat.cmu.edu/~larry/=stat705/
 Markdown Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code
 
 Сессии датабрикс: https://databricks.com/sparkaisummit/sessions
+
+A/B Tests: https://towardsdatascience.com/data-science-you-need-to-know-a-b-testing-f2f12aff619a
