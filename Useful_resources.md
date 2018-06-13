@@ -68,7 +68,11 @@ PySpark intro: https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutoria
 
 Есть инфа, что H2o на спарке - самое нормальное, что можно здесь использовать для машинного обучения, но на данный момент никто не проверял
 
-## 6 Теория / Математика
+## 6 Production
+
+Monitoring Production ML models: https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45742.pdf
+
+## 7 Теория / Математика
 
 Матричный матан: http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html
 
