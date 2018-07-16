@@ -8,7 +8,7 @@
 
 В папке, скачанной из репозитория с помощью следующей команды в Anaconda prompt:
 
-`conda env create -f environment.yml`
+`conda env create -f environment_new.yml`
 
 ### Как активировать environment:
 
