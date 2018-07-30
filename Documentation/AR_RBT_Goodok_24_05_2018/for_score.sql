@@ -1,8 +1,0 @@
-CREATE TABLE UAT_DM.AR_CL_FOR_SCORE LIKE new_cl_marts.new_cl STORED AS PARQUET;
-
-INSERT INTO UAT_DM.AR_CL_FOR_SCORE PARTITION(cl_year, cl_month, cl_day)
-SELECT * FROM new_cl_marts.new_cl t1
-WHERE cl_year = 2018
-AND cl_month = 5
-AND cl_day = 17
-AND t1.SUBS_ID IN (SELECT SUBS_ID FROM UAT_DM.AR_SUBS_FOR_SCORE_CL limit 1000000)
