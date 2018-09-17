@@ -1,6 +1,6 @@
 import os
 
-def ready_write(host='', login='', password='', cols=[], file_name='', table_name='', checkpoint = '100000', fastload_file_name=''):
+def ready_write(host='', login='', password='', cols=[], file_name='', table_name='', checkpoint = '100000', fastload_file_name='', separator='\\t'):
     """
     Prepares and writes fastloader import file.
     
@@ -20,7 +20,7 @@ def ready_write(host='', login='', password='', cols=[], file_name='', table_nam
      '',
      "SET QUERY_BAND = 'UtilityDataSize=SMALL;' UPDATE for session; ",
      '',
-     '.SET RECORD VARTEXT "\t";',
+     f'.SET RECORD VARTEXT "{separator}";',
      '',
      '',
      'DEFINE',
