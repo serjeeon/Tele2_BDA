@@ -1,6 +1,7 @@
 import os
 
-def ready_write(host='', login='', password='', cols=[], file_name='', table_name='', checkpoint = '100000', fastload_file_name='', separator='\\t'):
+def ready_write(host='', login='', password='', cols=[], file_name='', table_name='', checkpoint = '100000', fastload_file_name='', separator='\\t',
+                skip_header=False):
     """
     Prepares and writes fastloader import file.
     
@@ -22,7 +23,7 @@ def ready_write(host='', login='', password='', cols=[], file_name='', table_nam
      '',
      f'.SET RECORD VARTEXT "{separator}";',
      '',
-     '',
+     '' if skip_header == False else 'RECORD 2;',
      'DEFINE',
      '']:
         for_writing.append(i)
