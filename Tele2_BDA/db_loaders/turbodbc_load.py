@@ -37,7 +37,11 @@ def td_load_df(df, dsn, table_name, index=None): #This is the main function
     0. Largely untested
     1. String column length is equal to the length of the largest string column
     2. Datetime columns are loaded as several integer columns (year, month, day)
+	3. Does not support NA values at this time (throws an error)
     """
+    if df.isnull().values.any():
+        raise ValueError("""This function currently does not support NA values,
+    please fill them before loading""")
     df.columns = [col.upper() for col in df.columns]
     cat_columns = df.select_dtypes(['category']).columns
     for col in cat_columns:
@@ -178,7 +182,7 @@ SEL * FROM UAT_DM.ar_test_turbodbc_3
                                  ,load_2.sort_values(
                                      by=load_2.columns[1]).reset_index().drop(
                                      labels='index', axis=1))
-    print("Passed all test successfully")
+    print("Passed all tests successfully")
 									 
 def test_big(power = 6):
     test_frame = pd.DataFrame({'int_col':[7]*np.power(10, power)
