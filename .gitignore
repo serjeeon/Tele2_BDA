@@ -1,8 +1,7 @@
 
-Examples_local_python/.ipynb_checkpoints/LightGBM_minimalist_example-checkpoint.ipynb
-Examples_local_python/.ipynb_checkpoints/Download_multiple_csvs_from_Hadoop_Selenium-checkpoint.ipynb
-Examples_local_python/.ipynb_checkpoints/Jupyter_notebook_autoreload_libraries_and_magics-checkpoint.ipynb
+Examples_local_python/.ipynb_checkpoints/*
 
 # C extensions
 *.so
 settings.ini
+Tele2_BDA/__pycache__/__init__.cpython-36.pyc
