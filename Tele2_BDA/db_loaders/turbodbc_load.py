@@ -84,7 +84,7 @@ def dtypes_pd_to_td(df): #maps pandas dtypes to what
 def get_longest_string(df):
     col_long_str = [df[col].str.len().max() for col in df.select_dtypes(
         include=['object', 'category'])]
-    return max(col_long_str+[0]) #returns 0 if no str columns, doesn't matter
+    return int(max(col_long_str+[0])) #returns 0 if no str columns, doesn't matter
 
 def sql_create_statement(df, table_name, index): #SQL Create Table Statement
     if index is None or index not in df.columns:
