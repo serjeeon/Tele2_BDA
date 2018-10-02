@@ -33,8 +33,8 @@ class MetroData(object):
     Example:
     --------
     >>>metro_data = MetroData(no_process=True)
-    >>>metro_data.combine_files('new_stations.csv')
-
+    >>>metro_data.load_teradata_data(load_local=False, use_sql=True, sql=sql)
+    >>>metro_data.combine_files(result_file_name='new_file.csv')
     """
 
     def __init__(self, path='', stations_file_name='stations.csv', lines_file_name='lines.csv',
@@ -434,3 +434,14 @@ class MetroData(object):
         print('Done')
         if return_result:
             return new_stations
+
+if __name__ == '__main__':
+    # create class instance and get data from api
+    metro_data = MetroData(no_process=True)
+    sql = """
+            select * from UAT_DM.al_metro_subs_august where report_month = '2018-06-01'
+    """
+    # load data from Teradata
+    metro_data.load_teradata_data(load_local=False, use_sql=True, sql=sql)
+    # combine and save
+    metro_data.combine_files(result_file_name='new_file.csv')
