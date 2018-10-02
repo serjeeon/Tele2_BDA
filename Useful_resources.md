@@ -11,6 +11,8 @@ Xgb parameters: https://github.com/dmlc/xgboost/blob/master/doc/parameter.md
 
 Xgb tuning: https://github.com/dmlc/xgboost/blob/master/doc/how_to/param_tuning.md 
 
+Latest benchmarks: https://sites.google.com/view/lauraepp/new-benchmarks
+
 ### 1.3 Теоретические основы
 
 Репозиторий с понятными питон-имплементациями известных алгоритмов: https://github.com/eriklindernoren/ML-From-Scratch
@@ -19,9 +21,14 @@ Xgb tuning: https://github.com/dmlc/xgboost/blob/master/doc/how_to/param_tuning.
 
 SVM для лохов: http://web.mit.edu/6.034/wwwbob/svm-notes-long-08.pdf
 
+ML курс от Джереми: http://forums.fast.ai/t/another-treat-early-access-to-intro-to-machine-learning-videos/6826
+Заметки (aka краткое содержание): https://medium.com/@hiromi_suenaga/machine-learning-1-lesson-1-84a1dc2b5236
+
 ### 1.4 Deep Learning
 
 Основопологающий учебник: https://github.com/janishar/mit-deep-learning-book-pdf
+cs231n: http://cs231n.stanford.edu/
+Продвинутая специализация от вышки: https://www.coursera.org/specializations/aml
 
 ## 2 Анализ данных
 
@@ -35,6 +42,8 @@ Matplotlib cheatsheet: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/
 GGplot cheatsheet: https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
 
 Несколько хороших примеров по визуализации, в т.ч. анимации: https://github.com/aaronpenne/data_visualization
+
+Altair: https://github.com/altair-viz/altair
 
 ### 2.2 Pandas
 
@@ -93,6 +102,11 @@ ML (ESLII): https://web.stanford.edu/~hastie/Papers/ESLII.pdf
 Stats 36700 (CMU): http://www.stat.cmu.edu/~siva/700/main.html
 
 Stats 36705 (CMU): http://www.stat.cmu.edu/~larry/=stat705/
+
+## H2O
+
+http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science.html
+Может работать как локально, так и распределенно на кластере. Есть интерфейсы для Python, Scala, R.
 
 ## 99 Другое
 
