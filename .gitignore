@@ -5,3 +5,7 @@ Examples_local_python/.ipynb_checkpoints/*
 *.so
 settings.ini
 Tele2_BDA/__pycache__/__init__.cpython-36.pyc
+
+#ipynb
+.ipynb_checkpoints/
+*__pycache__*
