@@ -2,7 +2,7 @@ import os
 
 
 def ready_write(host='', login='', password='', cols=[], file_name='', table_name='', checkpoint='100000',
-                fastload_file_name='', separator='\\t',
+                fastload_file_name='', separator='\\t', ignore_quotes=False,
                 skip_header=False):
     """
     Prepares and writes fastloader import file. Then creates .bat file.
@@ -31,7 +31,8 @@ def ready_write(host='', login='', password='', cols=[], file_name='', table_nam
               '',
               "SET QUERY_BAND = 'UtilityDataSize=SMALL;' UPDATE for session; ",
               '',
-              f'.SET RECORD VARTEXT "{separator}";',
+              f'.SET RECORD VARTEXT "{separator}";' if ignore_quotes == False \
+                      else f'.SET RECORD VARTEXT "{separator}" QUOTE OPTIONAL \'\"\';',
               '',
               '' if skip_header == False else 'RECORD 2;',
               'DEFINE',
