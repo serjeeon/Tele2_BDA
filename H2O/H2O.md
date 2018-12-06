@@ -23,3 +23,26 @@
 * далеко не все преобразования данных удобно делать в H2O;
 
 Отдельно стоит отметить возможности вывода модели в продуктив: по идее можно сохранить модель в формате mojo/pojo, скомпилоровать в Java и использовать. Это должно быть проще, чем pyspark.
+
+### Использование H2O у нас
+
+В настоящий момент версия H2O на hadoop - 3.14.0.2. Однако мы можем запустить нужную нам версию.
+* В начале скачиваем с официального сайта версию, релевантную для нас. У нас hadoop 2.6, соответственно нужна примерно такая ссылка:
+https://h2o-release.s3.amazonaws.com/h2o/master/4450/h2o-3.21.0.4450-hdp2.6.zip
+* Разархивируем, нам нужен файл .jar, например h2odriver_hadoop26.jar. Переносим его на hue;
+* Копируем на кластер. Для этого надо запустить bash-notebook и выполнить примерно такую команду: 
+```bash
+hadoop fs -copyToLocal /user/andrey.lukyanenko/h2o_files/h2odriver_hadoop26.jar /home/andrey.lukyanenko
+```
+* Теперь можно запускать этот .jar вместо дефолтного;
+```bash
+hadoop jar /home/andrey.lukyanenko/h2odriver_hadoop26.jar -ldap_login -login_conf /etc/h2o/ldap.conf -nodes 20 -mapperXmx 10g -output h2o_output/$output_directory -notify info.txt
+```
+
+В кернеле Conda Python 3.6 уже установлена эта версия, так что можно просто делать так:
+```python
+import h2o
+h2o.connect(ip=, port=, auth=)
+```
+
+Для подключения с локального компа нужно, как обычно, установить релевантную версию H2O.
