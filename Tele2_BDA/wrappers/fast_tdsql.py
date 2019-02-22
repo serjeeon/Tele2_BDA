@@ -15,9 +15,9 @@ def set_connection(u, pas, h='td2800.corp.tele2.ru'):
     
     return td.connect(None, host=h, user=u, password=pas)
 
-def query(con, q, params=None, infer_types=True, col_case='upper', shape=True, dtypes=False, head=0):
+def select(con, q, params=None, infer_types=True, col_case='upper', shape=True, dtypes=False, head=0):
     """
-    Make a query
+    Make a select query
 
     Parameters:
     -----------
@@ -25,10 +25,10 @@ def query(con, q, params=None, infer_types=True, col_case='upper', shape=True, d
     q - query string;
     params - optional sequence of ? parameter values;
     infer_types - infer types by the database driver or set all columns as string;
-    col_case - 'upper'/'lower'/None
-    shape - print shape of the obtained dataframe
-    dtypes - print dtypes of the obtained dataframe
-    head - print top n rows from the obtained dataframe
+    col_case - 'upper'/'lower'/None;
+    shape - print shape of the obtained dataframe;
+    dtypes - print dtypes of the obtained dataframe;
+    head - print top n rows from the obtained dataframe;
     """
 
     if not con:
